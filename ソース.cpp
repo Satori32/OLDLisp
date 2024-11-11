@@ -58,7 +58,7 @@ bool Load(Memory& In, Memory& Src) {
 }
 
 struct SystemOLDLisp {
-	BarAndCar BC;
+	BarAndCar Register;
 	Memory Cash;
 	Memory Memory;
 	Memory Strage;
