@@ -64,5 +64,6 @@ struct SystemOLDLisp {
 	Memory Strage;
 	Memory DeCoder;
 	Memory EnCoder;
-	intmax_t Counter = 0;
+	intmax_t LCounter = 0;
+	intmax_t GCounter = 0;
 };
